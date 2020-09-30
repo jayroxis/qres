@@ -1,0 +1,4 @@
+Error lambda_1: 0.008750%
+Error lambda_2: 0.009676%
+Error lambda_1: 0.183016%
+Error lambda_2: 0.008587%
