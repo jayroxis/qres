@@ -14,4 +14,4 @@ https://maziarraissi.github.io/PINNs/
 
 General Requirements:
 - Pytorch 1.5
-- Tensorflow v1 etc (for reproduce PINN experiments, please follow the description in [github.com/maziarraissi](https://github.com/maziarraissi/PINNs))
+- Tensorflow v1 etc (for reproduce PINN experiments, please follow the description in [PINN](https://github.com/maziarraissi/PINNs))
