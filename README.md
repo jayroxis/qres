@@ -2,7 +2,7 @@
 
 Quadratic Residual Networks:  A New Class of Neural Networks for Solving Forward and Inverse Problems in Physics Involving PDEs
 
-![1](./doc/QRes.png)
+<p align="center"><img src="./doc/QRes.png" alt="alt text" width="60%" height="whatever"></p>
 
 ---------------------------
 
