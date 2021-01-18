@@ -27,6 +27,7 @@ tf.set_random_seed(1234)
 parser = argparse.ArgumentParser()
 parser.add_argument('--mod', default='lite', type=str, help='the version of QRes network, can be "full" (3.06k) or "lite" (1.38k).')
 parser.add_argument('--lr_scheduler', default=False, type=bool, help='options to use decaying learning rate scheduler.')
+parser.add_argument('--epochs', default=200000, type=int, help='number of training epochs.')
 args = parser.parse_args()
 
 
@@ -309,7 +310,7 @@ if __name__ == "__main__":
 
     # Training
     model = PhysicsInformedNN(x_train, y_train, t_train, u_train, v_train, layers)
-    model.train(100000, True)
+    model.train(args.epochs, True)
     
     # Test Data
     snap = np.array([100])
@@ -375,7 +376,7 @@ if __name__ == "__main__":
 
     # Training
     model = PhysicsInformedNN(x_train, y_train, t_train, u_train, v_train, layers)
-    model.train(100000, False)
+    model.train(args.epochs, False)
         
     lambda_1_value_noisy = model.sess.run(model.lambda_1)
     lambda_2_value_noisy = model.sess.run(model.lambda_2)
