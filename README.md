@@ -12,4 +12,4 @@ General Requirements:
 - Pytorch 1.5 (most experiments)
 - Tensorflow v1 etc (for reproducing PINN experiments, please follow the description in [PINN](https://github.com/maziarraissi/PINNs))
 
-![2](./doc/freq.png)
+![2](./doc/freq.PNG)
