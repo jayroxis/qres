@@ -1,2 +1,7 @@
 # Quadratic Residual Networks
-Learning with Higher Expressive Power than Neural Networks
+
+Quadratic Residual Networks:  A New Class of Neural Networks forSolving Forward and Inverse Problems in Physics Involving PDEs
+
+![1](./doc/QRes.png)
+
+Most experiments are in Jupyter notebooks while functions and classes are defined in .py Python scripts.
