@@ -6,11 +6,7 @@ Quadratic Residual Networks:  A New Class of Neural Networks for Solving Forward
 
 Most experiments are in ***Jupyter notebooks*** while functions and classes are defined in ***.py*** Python scripts.
 
-For reference for PINN: 
-
-https://github.com/maziarraissi/PINNs
-
-https://maziarraissi.github.io/PINNs/
+For reference for PINN: [repo](https://github.com/maziarraissi/PINNs), [doc](https://maziarraissi.github.io/PINNs/)
 
 General Requirements:
 - Pytorch 1.5
