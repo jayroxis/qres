@@ -15,5 +15,10 @@ General Requirements:
 - Tensorflow v1 etc (for reproducing PINN experiments, please follow the description in [PINN](https://github.com/maziarraissi/PINNs))
 
 ---------------------------
+High frequency Reponse:
 
 ![2](./doc/freq.PNG)
+
+Error Map of Learning Navier-Stoke Equation:
+
+![3](./doc/err.PNG)
