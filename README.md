@@ -12,7 +12,7 @@ Most experiments are in ***Jupyter notebooks*** while functions and classes are 
 For reference for PINN: [repo](https://github.com/maziarraissi/PINNs), [doc](https://maziarraissi.github.io/PINNs/)
 
 General Requirements:
-- Pytorch 1.5 (most experiments)
+- PyTorch 1.5 (most experiments)
 - Tensorflow v1 etc (for reproducing PINN experiments, please follow the description in [PINN](https://github.com/maziarraissi/PINNs))
 
 ---------------------------
