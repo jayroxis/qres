@@ -16,7 +16,7 @@ General Requirements:
 - Tensorflow v1 etc (for reproducing PINN experiments, please follow the descriptions in [PINN](https://github.com/maziarraissi/PINNs))
 
 ---------------------------
-High frequency Reponse:
+High frequency Reponse (learning with MSE loss function alone):
 
 ![2](./doc/freq.PNG)
 
